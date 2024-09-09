@@ -20,7 +20,7 @@ public class App {
 
             // Thực hiện các thao tác với cơ sở dữ liệu
 
-            // Close the connection
+            
             conn.close();
         } catch (ClassNotFoundException e) {
             System.err.println("Driver not found: " + e.getMessage());
